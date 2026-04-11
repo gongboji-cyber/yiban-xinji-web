@@ -3,7 +3,7 @@ import ChatWorkspace from '../components/ChatWorkspace';
 const pillars = [
   {
     title: '陪伴式对话',
-    body: '不是灌鸡汤，而是先接住表达，再逼近真正的问题。'
+    body: '不再灌鸡汤，而是先接住表达，再逼近真正的问题。'
   },
   {
     title: '日记与回顾',
@@ -43,7 +43,7 @@ export default function Page() {
             <span className="eyebrow">Emotional companion prototype</span>
             <h1>把“陪聊”做成一套真正能留痕、能反思、能预警的产品闭环</h1>
             <p>
-              这不是又一个空泛聊天框。第一版就把你草图里的主链路落下来：
+              这不是又一个空泛聊天框：
               对话承接、情绪洞察、日记生成、ABC 分析、风险提醒。
             </p>
             <div className="hero-actions">
@@ -82,7 +82,7 @@ export default function Page() {
             <div className="glass-card note-card">
               <span className="tag">Reality Check</span>
               <p>
-                别再一上来谈训练大模型。先把原型做成能被陌生人打开、使用、复盘的公网产品。
+                本产品已在公开网际网络依托vercle公开。
               </p>
             </div>
           </div>
@@ -92,7 +92,7 @@ export default function Page() {
       <section className="features-section" id="features">
         <div className="section-heading">
           <span className="eyebrow">Product modules</span>
-          <h2>第一版不贪多，但每一块都要对闭环负责</h2>
+          <h2>每一块都要对用户情绪闭环负责</h2>
         </div>
         <div className="feature-grid">
           {pillars.map((item, index) => (
@@ -110,25 +110,25 @@ export default function Page() {
       <section className="notes-section" id="notes">
         <div className="section-heading narrow">
           <span className="eyebrow">Launch notes</span>
-          <h2>上线姿势要现实，不要自我感动</h2>
+          <h2>公告栏</h2>
         </div>
         <div className="notes-grid">
           <div className="glass-card notes-card">
-            <h3>你现在真正需要做的</h3>
+            <h3>注意</h3>
             <ol>
-              <li>把项目推到 GitHub。</li>
-              <li>本地先跑通页面和接口。</li>
-              <li>在 Vercel 配环境变量并部署外网。</li>
-              <li>找 5–10 个真实用户试用，记录他们到底会不会回看洞察和日记。</li>
+              <li>本产品仍在实验测试阶段</li>
+              <li>如有任何心理不适请及时咨询医生</li>
+              <li>本产品旨在心理引导</li>
+              <li>测试阶段欢迎各位免费使用</li>
             </ol>
           </div>
           <div className="glass-card notes-card">
-            <h3>第一版不要抢跑的内容</h3>
+            <h3>CAUTION</h3>
             <ol>
-              <li>不要先做训练。</li>
-              <li>不要先拆前后端多仓库。</li>
-              <li>不要先堆语音、支付、后台、运营系统。</li>
-              <li>不要把 AI 伪装成医生或咨询师。</li>
+              <li>This product is still IN the experimental testing stage.</li>
+              <li>If you experience any psychological discomfort, please consult a doctor in a timely manner.</li>
+              <li>This product is designed FOR psychological guidance.</li>
+              <li>Welcome everyone to use it FOR free during the testing phase.</li>
             </ol>
           </div>
         </div>
